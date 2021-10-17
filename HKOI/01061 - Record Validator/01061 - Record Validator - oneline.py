@@ -1,0 +1,1 @@
+print((lambda addr:sum([1 for _ in addr if _.isspace() or _=='']) if addr!= None else '')((lambda addr :print('Invalid',end='') if addr.count(',') !=5 else addr.split(','))(input())))
