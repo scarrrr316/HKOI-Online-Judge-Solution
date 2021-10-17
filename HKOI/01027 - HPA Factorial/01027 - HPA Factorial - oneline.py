@@ -1,0 +1,1 @@
+print((lambda x,m :m.factorial(x))(eval(input()),__import__('math')))
