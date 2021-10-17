@@ -1,0 +1,1 @@
+[print(eval(input().replace('^','**'))) for i in range(eval(input()))]
