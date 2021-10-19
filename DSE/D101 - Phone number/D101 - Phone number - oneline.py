@@ -1,0 +1,1 @@
+print('Mobile' if eval(input()[0]) > 3 else 'Fixed')
