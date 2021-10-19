@@ -1,0 +1,1 @@
+print((lambda f:sum([eval(f.readline()) for i in range(eval(f.readline()))]))(open('account.txt')))
