@@ -1,0 +1,1 @@
+print('%.10f' % (lambda xy,m :(xy[0] * xy[1]  / 2)+(m.pi* (xy[0] / 4)**2))(list(map(float,input().split())),__import__("math")))
