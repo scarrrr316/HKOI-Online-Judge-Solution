@@ -1,0 +1,1 @@
+open('score.out','w').write(f"{(lambda m: int(m[0]*20/100+ m[1]*30/100+ m[2]*50/100))(list(map(eval,open('score.in','r').readline().split())))}")
