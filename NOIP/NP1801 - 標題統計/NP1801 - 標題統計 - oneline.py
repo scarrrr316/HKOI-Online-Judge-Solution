@@ -1,0 +1,1 @@
+open('title.out','w').write(str(len(open('title.in','r').read().replace(' ','').replace('\n',''))))
